@@ -1,0 +1,239 @@
+.redeem-list {
+  margin-bottom: 2rem; }
+
+.redeem-item {
+  padding: 0.75rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  transition: all ease 0.3s; }
+  .redeem-item .redeem-img {
+    overflow: hidden; }
+    .redeem-item .redeem-img img {
+      display: block;
+      width: 100%;
+      transform-origin: 50% 50%;
+      transition: all ease 0.3s; }
+  .redeem-item .redeem-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%; }
+  .redeem-item h4 {
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin: 0 0 0.5rem;
+    flex-shrink: 1; }
+  .redeem-item h5 {
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin: 0 0 1rem;
+    color: #df6e22;
+    flex-grow: 1; }
+  .redeem-item h6 {
+    margin: 0;
+    font-size: 0.625rem;
+    font-weight: bold;
+    color: #df6e22; }
+    .redeem-item h6.sold-out {
+      color: #999999; }
+  .redeem-item .progress-bar {
+    height: 8px; }
+  .redeem-item + .redeem-item {
+    margin-top: 1rem; }
+  .redeem-item .redeem-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5; }
+  .redeem-item:hover {
+    box-shadow: 0 0 4px 2px #eeeeee; }
+    .redeem-item:hover .redeem-img img {
+      transform: scale(1.1); }
+    .redeem-item:hover h4 {
+      text-decoration: underline; }
+
+.main-slider {
+  margin: 0 -0.5rem 1rem; }
+  @media (min-width: 1024px) {
+    .main-slider {
+      margin: 0 0 1rem; } }
+
+.thumbnail-slider {
+  display: none !important;
+  margin: 0 -0.25rem 1rem; }
+  @media (min-width: 1024px) {
+    .thumbnail-slider {
+      display: block !important; } }
+  .thumbnail-slider .slick-slide {
+    padding: 0.25rem;
+    display: block !important;
+    outline: none; }
+    .thumbnail-slider .slick-slide img {
+      border: 2px solid transparent; }
+  .thumbnail-slider .slick-prev,
+  .thumbnail-slider .slick-next {
+    height: auto;
+    top: 0.25rem;
+    bottom: 0.25rem;
+    border-radius: 0;
+    transform: translate(0, 0);
+    box-shadow: none;
+    opacity: 0.75;
+    width: 26px; }
+    .thumbnail-slider .slick-prev:focus,
+    .thumbnail-slider .slick-next:focus {
+      opacity: 0.75; }
+    .thumbnail-slider .slick-prev:before,
+    .thumbnail-slider .slick-next:before {
+      color: #000000; }
+  .thumbnail-slider .slick-prev {
+    left: 0; }
+  .thumbnail-slider .slick-next {
+    right: 0; }
+  .thumbnail-slider .slick-slide.slick-current img {
+    border-color: #df6e22; }
+
+.item-detail {
+  padding: 0 0.5rem; }
+  .item-detail h1 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin: 0 0 0.5rem; }
+  .item-detail h3 {
+    font-size: 0.875rem;
+    color: #df6e22;
+    font-weight: bold;
+    margin: 0 0 1.5rem; }
+  .item-detail h6 {
+    font-size: 0.75rem;
+    margin: 0 0 0.25rem;
+    font-weight: bold;
+    color: #df6e22; }
+  .item-detail .progress-bar {
+    height: 8px; }
+  .item-detail .item-stock {
+    margin-bottom: 1.5rem; }
+    .item-detail .item-stock.sold-out h6 {
+      color: #999999; }
+  .item-detail h5 {
+    font-weight: bold;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem; }
+  .item-detail p {
+    color: #999999;
+    font-size: 0.875rem;
+    white-space: pre-wrap; }
+  .item-detail .redeem-button {
+    margin: 2rem 0; }
+    .item-detail .redeem-button .button {
+      display: block;
+      width: 100%; }
+      .item-detail .redeem-button .button.btn-redeem {
+        display: block; }
+      @media (min-width: 1024px) {
+        .item-detail .redeem-button .button {
+          display: none; }
+          .item-detail .redeem-button .button.btn-redeem, .item-detail .redeem-button .button.btn-sold-out {
+            display: block; } }
+  @media (min-width: 1024px) {
+    .item-detail {
+      padding: 0 1rem; }
+      .item-detail h1 {
+        font-size: 1.5rem; }
+      .item-detail h3 {
+        font-size: 1.125rem;
+        margin-bottom: 1.5rem; }
+      .item-detail h6 {
+        font-size: 0.875rem; }
+      .item-detail h5 {
+        font-size: 1rem; }
+      .item-detail p {
+        font-size: 1rem; } }
+
+/* popup redeem */
+.tracking-info {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #df6e22;
+  border-radius: 4px;
+  margin-bottom: 1.25rem; }
+  .tracking-info p {
+    margin: 0 auto;
+    line-height: 1.2; }
+  .tracking-info strong {
+    color: #df6e22; }
+
+.choosen-item {
+  margin-bottom: 2rem; }
+  .choosen-item h5 {
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin: 0 0 0.5rem; }
+  .choosen-item img {
+    width: 80px;
+    height: 80px; }
+  .choosen-item .choosen-item-info {
+    height: 100%;
+    border: 1px solid #d3d3d3;
+    border-left: none;
+    padding: 0.5rem 1rem;
+    height: 80px;
+    overflow: auto; }
+    .choosen-item .choosen-item-info h4 {
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 1.2;
+      margin: 0 0 0.25rem; }
+    .choosen-item .choosen-item-info h6 {
+      font-size: 0.875rem;
+      font-weight: bold;
+      color: #df6e22;
+      margin: 0; }
+
+.shipping-address h5 {
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin: 0 0 1rem; }
+
+.submit-info {
+  margin-top: -1rem; }
+  .submit-info p {
+    font-size: 1rem;
+    color: #222;
+    line-height: 1.2;
+    padding-top: 1rem; }
+
+.redeem-success .redeem-success-button {
+  margin: 1.5rem 0; }
+  .redeem-success .redeem-success-button .button {
+    width: 100%;
+    display: block;
+    margin: 0 0 1.5rem; }
+    .redeem-success .redeem-success-button .button.btn-done {
+      display: none; }
+    @media (min-width: 1024px) {
+      .redeem-success .redeem-success-button .button {
+        display: none;
+        margin: 0; }
+        .redeem-success .redeem-success-button .button.btn-done {
+          display: block; } }
+  @media (min-width: 1024px) {
+    .redeem-success .redeem-success-button {
+      margin: 1.5rem 0 0; } }
+
+.shipping-fragment {
+  padding: 2rem .5rem 1rem; }
+  @media (min-width: 1024px) {
+    .shipping-fragment {
+      padding: 0;
+      margin: 0 -.5rem; } }
+
+.slider-container {
+  max-width: 100%; }
+  @media (min-width: 1024px) {
+    .slider-container {
+      width: 400px; } }

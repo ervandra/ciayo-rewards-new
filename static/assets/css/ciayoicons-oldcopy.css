@@ -1,0 +1,172 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "ciayofonts";
+  src: url("../fonts/ciayofonts.eot?cd775d");
+  src: url("../fonts/ciayofonts.eot?cd775d#iefix") format("embedded-opentype"), url("../fonts/ciayofonts.ttf?cd775d") format("truetype"), url("../fonts/ciayofonts.woff?cd775d") format("woff"), url("../fonts/ciayofonts.svg?cd775d#ciayofonts") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.ci {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  display: inline-block;
+  font-family: "ciayofonts" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .ci.ci-home:before {
+    content: ""; }
+  .ci.ci-home-outline:before {
+    content: ""; }
+  .ci.ci-comics:before {
+    content: ""; }
+  .ci.ci-comics-outline:before {
+    content: ""; }
+  .ci.ci-challenge:before {
+    content: ""; }
+  .ci.ci-challenge-outline:before {
+    content: ""; }
+  .ci.ci-subscribed:before {
+    content: ""; }
+  .ci.ci-subscribed-outline:before {
+    content: ""; }
+  .ci.ci-subscribed-outline-menu:before {
+    content: ""; }
+  .ci.ci-schedule:before {
+    content: ""; }
+  .ci.ci-schedule-outline:before {
+    content: ""; }
+  .ci.ci-blog:before {
+    content: ""; }
+  .ci.ci-share:before {
+    content: ""; }
+  .ci.ci-search:before {
+    content: ""; }
+  .ci.ci-hamburger:before {
+    content: ""; }
+  .ci.ci-more-vertical:before {
+    content: ""; }
+  .ci.ci-more:before {
+    content: ""; }
+  .ci.ci-more-outline:before {
+    content: ""; }
+  .ci.ci-like:before {
+    content: ""; }
+  .ci.ci-dislike:before {
+    content: ""; }
+  .ci.ci-reply:before {
+    content: ""; }
+  .ci.ci-close:before {
+    content: ""; }
+  .ci.ci-arrow-left:before {
+    content: ""; }
+  .ci.ci-chevron-left:before {
+    content: ""; }
+  .ci.ci-chevron-right:before {
+    content: ""; }
+  .ci.ci-chevron-up:before {
+    content: ""; }
+  .ci.ci-chevron-down:before {
+    content: ""; }
+  .ci.ci-caret-left:before {
+    content: ""; }
+  .ci.ci-caret-right:before {
+    content: ""; }
+  .ci.ci-up:before {
+    content: ""; }
+  .ci.ci-bullet:before {
+    content: ""; }
+  .ci.ci-radio-filled:before {
+    content: ""; }
+  .ci.ci-bullet-outline:before {
+    content: ""; }
+  .ci.ci-radio:before {
+    content: ""; }
+  .ci.ci-checked:before {
+    content: ""; }
+  .ci.ci-edit:before {
+    content: ""; }
+  .ci.ci-check-square:before {
+    content: ""; }
+  .ci.ci-checked-square:before {
+    content: ""; }
+  .ci.ci-setting:before {
+    content: ""; }
+  .ci.ci-my-account:before {
+    content: ""; }
+  .ci.ci-envelope:before {
+    content: ""; }
+  .ci.ci-information:before {
+    content: ""; }
+  .ci.ci-language:before {
+    content: ""; }
+  .ci.ci-lock:before {
+    content: ""; }
+  .ci.ci-logout:before {
+    content: ""; }
+  .ci.ci-question-mark:before {
+    content: ""; }
+  .ci.ci-terms-condition:before {
+    content: ""; }
+  .ci.ci-send:before {
+    content: ""; }
+  .ci.ci-register:before {
+    content: ""; }
+  .ci.ci-goto-top:before {
+    content: ""; }
+  .ci.ci-facebook-square:before {
+    content: ""; }
+  .ci.ci-facebook:before {
+    content: ""; }
+  .ci.ci-twitter:before {
+    content: ""; }
+  .ci.ci-google-plus:before {
+    content: ""; }
+  .ci.ci-android:before {
+    content: ""; }
+  .ci.ci-ios:before {
+    content: ""; }
+  .ci.ci-exclamation:before {
+    content: ""; }
+  .ci.ci-bubble-text:before {
+    content: ""; }
+  .ci.ci-submission-step-1:before {
+    content: ""; }
+  .ci.ci-submission-step-2:before {
+    content: ""; }
+  .ci.ci-submission-step-3:before {
+    content: ""; }
+  .ci.ci-submission-step-4:before {
+    content: ""; }
+  .ci.ci-plus:before {
+    content: ""; }
+  .ci.ci-loader:before {
+    content: ""; }
+  .ci.ci-move:before {
+    content: ""; }
+  .ci.ci-person:before {
+    content: ""; }
+
+@-webkit-keyframes ci-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@keyframes ci-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+.ci-spin {
+  -webkit-animation: ci-spin 1s infinite linear;
+  animation: ci-spin 1s infinite linear; }

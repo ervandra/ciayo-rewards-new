@@ -1,2 +1,3 @@
-# ciayo-rewards-new
-CIAYO Rewards v2, using nextjs
+# CIAYO Rewards V2
+
+CIAYO Rewards, but with SSR

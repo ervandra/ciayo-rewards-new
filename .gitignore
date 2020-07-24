@@ -1,0 +1,8 @@
+/coverage
+/build
+.next
+/.vscode
+/node_modules
+.env
+.env.production
+.env.production.local

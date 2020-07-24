@@ -1,0 +1,301 @@
+@font-face {
+  font-family: "ciayoicons";
+  src: url("../fonts/ciayoicon.woff2?v=4.0.0") format("woff2"),
+    url("../fonts/ciayoicon.woff?v=4.0.0") format("woff"),
+    url("../fonts/ciayoicon.ttf?v=4.0.0") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/roboto.woff2?v=4.0.0") format("woff2"),
+    url("../fonts/roboto.woff?v=4.0.0") format("woff"),
+    url("../fonts/roboto.ttf?v=4.0.0") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/robotobold.woff2?v=4.0.0") format("woff2"),
+    url("../fonts/robotobold.woff?v=4.0.0") format("woff"),
+    url("../fonts/robotobold.ttf?v=4.0.0") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Proxima Nova Soft";
+  src: url("../fonts/proximanovasoft.woff2?v=4.0.0") format("woff2"),
+    url("../fonts/proximanovasoft.woff?v=4.0.0") format("woff"),
+    url("../fonts/proximanovasoft.ttf?v=4.0.0") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Proxima Nova Soft";
+  src: url("../fonts/proximanovasoftbold.woff2?v=4.0.0") format("woff2"),
+    url("../fonts/proximanovasoftbold.woff?v=4.0.0") format("woff"),
+    url("../fonts/proximanovasoftbold.ttf?v=4.0.0") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Proxima Nova Soft";
+  src: url("../fonts/proximanovasoftextrabold.woff2?v=4.0.0") format("woff2"),
+    url("../fonts/proximanovasoftextrabold.woff?v=4.0.0") format("woff"),
+    url("../fonts/proximanovasoftextrabold.ttf?v=4.0.0") format("ttf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+    font-family: ciayofonts;
+    src: url(../fonts/ciayofonts.eot);
+    src: url(../fonts/ciayofonts.eot#iefix) format("embedded-opentype"), url(../fonts/ciayofonts.ttf) format("truetype"), url(../fonts/ciayofonts.woff) format("woff"), url(../fonts/ciayofonts.svg#ciayofonts) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.ci {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "ciayoicons" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ci.ci-home:before {
+  content: "\e902";
+}
+.ci.ci-home-outline:before {
+  content: "\e91b";
+}
+.ci.ci-comics:before {
+  content: "\e901";
+}
+.ci.ci-comics-outline:before {
+  content: "\e91a";
+}
+.ci.ci-challenge:before {
+  content: "\e900";
+}
+.ci.ci-challenge-outline:before {
+  content: "\e919";
+}
+.ci.ci-subscribed:before {
+  content: "\e904";
+}
+.ci.ci-subscribed-outline:before {
+  content: "\e92a";
+}
+.ci.ci-subscribed-outline-menu:before {
+  content: "\e91d";
+}
+.ci.ci-schedule:before {
+  content: "\e903";
+}
+.ci.ci-schedule-outline:before {
+  content: "\e905";
+}
+.ci.ci-blog:before {
+  content: "\e923";
+}
+.ci.ci-share:before {
+  content: "\e933";
+}
+.ci.ci-search:before {
+  content: "\e986";
+}
+.ci.ci-hamburger:before {
+  content: "\e92e";
+}
+.ci.ci-more-vertical:before {
+  content: "\e916";
+}
+.ci.ci-more:before {
+  content: "\e906";
+}
+.ci.ci-more-outline:before {
+  content: "\e91c";
+}
+.ci.ci-like:before {
+  content: "\e918";
+}
+.ci.ci-dislike:before {
+  content: "\e931";
+}
+.ci.ci-reply:before {
+  content: "\e907";
+}
+.ci.ci-close:before {
+  content: "\e908";
+}
+.ci.ci-arrow-left:before {
+  content: "\e909";
+}
+.ci.ci-chevron-left:before {
+  content: "\e90b";
+}
+.ci.ci-chevron-right:before {
+  content: "\e90a";
+}
+.ci.ci-chevron-up:before {
+  content: "\e917";
+}
+.ci.ci-chevron-down:before {
+  content: "\e921";
+}
+.ci.ci-caret-left:before {
+  content: "\e90c";
+}
+.ci.ci-caret-right:before {
+  content: "\e90d";
+}
+.ci.ci-up:before {
+  content: "\e90e";
+}
+.ci.ci-bullet:before {
+  content: "\e90f";
+}
+.ci.ci-radio-filled:before {
+  content: "\e930";
+}
+.ci.ci-bullet-outline:before {
+  content: "\e910";
+}
+.ci.ci-radio:before {
+  content: "\e92f";
+}
+.ci.ci-checked:before {
+  content: "\e911";
+}
+.ci.ci-edit:before {
+  content: "\e913";
+}
+.ci.ci-check-square:before {
+  content: "\e91e";
+}
+.ci.ci-checked-square:before {
+  content: "\e91f";
+}
+.ci.ci-setting:before {
+  content: "\e920";
+}
+.ci.ci-my-account:before {
+  content: "\e922";
+}
+.ci.ci-envelope:before {
+  content: "\e924";
+}
+.ci.ci-information:before {
+  content: "\e925";
+}
+.ci.ci-language:before {
+  content: "\e926";
+}
+.ci.ci-lock:before {
+  content: "\e927";
+}
+.ci.ci-logout:before {
+  content: "\e928";
+}
+.ci.ci-question-mark:before {
+  content: "\e929";
+}
+.ci.ci-terms-condition:before {
+  content: "\e92b";
+}
+.ci.ci-send:before {
+  content: "\e92c";
+}
+.ci.ci-register:before {
+  content: "\e92d";
+}
+.ci.ci-goto-top:before {
+  content: "\e912";
+}
+.ci.ci-facebook-square:before {
+  content: "\e914";
+}
+.ci.ci-facebook:before {
+  content: "\e932";
+}
+.ci.ci-twitter:before {
+  content: "\e915";
+}
+.ci.ci-google-plus:before {
+  content: "\ea8b";
+}
+.ci.ci-android:before {
+  content: "\eac0";
+}
+.ci.ci-ios:before {
+  content: "\e934";
+}
+.ci.ci-exclamation:before {
+  content: "\e935";
+}
+.ci.ci-bubble-text:before {
+  content: "\e936";
+}
+.ci.ci-submission-step-1:before {
+  content: "\e937";
+}
+.ci.ci-submission-step-2:before {
+  content: "\e938";
+}
+.ci.ci-submission-step-3:before {
+  content: "\e939";
+}
+.ci.ci-submission-step-4:before {
+  content: "\e93a";
+}
+.ci.ci-plus:before {
+  content: "\e93b";
+}
+.ci.ci-loader:before {
+  content: "\e93c";
+}
+.ci.ci-move:before {
+  content: "\e93d";
+}
+.ci.ci-person:before {
+  content: "\e93e";
+}
+.ci.ci-notification:before {
+  content: "\e93f";
+}
+.ci.ci-notif_comment:before {
+  content: "\e940";
+}
+.ci.ci-notif_comic:before {
+  content: "\e941";
+}
+.ci.ci-notif_achievement:before {
+  content: "\e942";
+}
+.ci.ci-notif_announcement:before {
+  content: "\e943";
+}
+.ci.ci-notif_event:before {
+  content: "\e944";
+}
+.ci.ci-notif_chapter:before {
+  content: "\e945";
+}
