@@ -28,7 +28,7 @@
 	"author": "Ervandra Halim <ervandra.halim@gmail.com>",
 	"license": "ISC",
 	"dependencies": {
-		"axios": "^0.18.1",
+		"axios": "^0.21.1",
 		"acorn": "^6.3.0",
 		"ajv": "^6.9.2",
 		"babel-core": "7.0.0-bridge.0",
